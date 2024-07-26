@@ -491,7 +491,7 @@ def create_final_video(input_video_path, combined_highlights, output_video_path)
 def main_running_code(video_path):
     t1 = time.time()
     
-    # 1) obj detecttion -> saves .json of yolo 
+    # 1) obj detection -> saves .json of yolo 
     model_path = 'C:\\Users\\User\\Desktop\\video-highlights-detection\\video_highlight_detection\\yolov5s.pt'
     # model_path = 'C:\\Users\\User\\Desktop\\video-highlights-app\\yolov5s.pt'
     model = torch.hub.load('ultralytics/yolov5', 'custom', path=model_path)
