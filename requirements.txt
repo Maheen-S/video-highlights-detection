@@ -1,1 +1,17 @@
 numpy
+ffmpeg-python==0.2.0
+pydub==0.25.1
+noisereduce==3.0.2
+transformers==4.42.3
+spacy==3.7.5
+torch==2.2.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn
+matplotlib==3.7.5
+opencv-python==4.10.0.84
+librosa==0.10.2.post1
+audioread==3.0.1
+flask
+requests
+streamlit==1.36.0

@@ -105,3 +105,21 @@ ENV/
 
 # IDE settings
 .vscode/
+
+# ignore json files
+*.json
+
+# ignore mp4 files
+*.mp4
+
+#ignore wav files
+*.wav
+
+# ignore docs folder
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# ignore docs folder
+docs/ 
